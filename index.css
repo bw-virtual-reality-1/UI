@@ -87,3 +87,10 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
