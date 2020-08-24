@@ -98,6 +98,7 @@ video {
 }
 
 nav {
+  color: #010b24;
   display: flex;
   justify-content: space-evenly;
   padding: 2% 0;
@@ -109,4 +110,10 @@ nav:hover {
   color: #010b24;
   border: 2px solid #ca2044;
   background-color: #fff;
+}
+h1 {
+  font-family: "Orbitron";
+  font-size: 4rem;
+  letter-spacing: 2px;
+  padding: 10%;
 }
