@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Russo+One&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+}
+section {
+    padding: 4%;   
+}
+/* END RESET */
+a {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    background: #CA2044;
+    font-size: 1.4rem;
+}
+nav a {
+    padding: 1%;
+    margin: 0;
+    width: 18%;
+    justify-content: center;
+    margin: 1%;
+    background: #CA2044;
+    color: black;
+}
+.register {
+    padding: 0;
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+}
+.register a {
+    width: 40%;
+    padding: 2.3%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px;
+}
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.4rem;
+    margin: 0 1%;
+    padding: 1%;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    width: 70%;
+    padding: 1%;
+    justify-content: space-around;
+}
+footer nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+}
+footer nav a {
+    width: 15%;
+}
+header, footer {
+    background: #010B24;
+}
+h1 {
+    border: 1px solid black;
+    display: flex; 
+    width: 30%;
+}
+.mainBody p {
+    display: flex;
+    width: 30%;
+    margin: 0 1%;
+    padding: 1%;
+    border: 1px solid black;
+}
+.mainBody{
+    background-image: url("/assets/background-img.jpeg");
+    background-size: cover;
+}
