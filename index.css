@@ -87,14 +87,26 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-@import url(https://fonts.google.com/specimen/Orbitron);
-@import url(https://fonts.google.com/specimen/Russo + One);
-@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Russo+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+}
 
 nav {
-  width: 30%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
-  font-family: "Roboto Mono", monospace;
+  padding: 2% 0;
+  font-family: "Roboto", monospace;
+  text-decoration: none;
+}
+
+nav:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #fff;
 }
