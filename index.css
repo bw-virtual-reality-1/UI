@@ -87,10 +87,14 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+@import url(https://fonts.google.com/specimen/Orbitron);
+@import url(https://fonts.google.com/specimen/Russo + One);
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
 
 nav {
   width: 30%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5%;
+  font-family: "Roboto Mono", monospace;
 }
