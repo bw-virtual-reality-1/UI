@@ -94,16 +94,19 @@ nav a {
 }
 .register {
     padding: 0;
-    width: 27%;
+    width: 15%;
+    border: 1px solid black;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 .register a {
-    width: 45%;
+    width: 85%;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px;
     border-radius: 10px;
+    margin: 3%;
+    padding: 4% 0 4% 0;
 }
 h1 {
     font-family: 'Russo One', sans-serif;
@@ -121,7 +124,7 @@ h2, h3, h4, h5, h6 {
 }
 nav {
     display: flex;
-    width: 70%;
+    width: 75%;
     padding: 1%;
     justify-content: space-around;
 }
@@ -246,10 +249,16 @@ body {
     }
     .register {
         width: 100%;
+        flex-direction: row;
     }
     .register a {
         width: 40%; 
         margin: 1% auto;
+        padding: 2%;
+    }
+    header nav a {
+        width: 60%;
+        border-radius: 10px;
     }
     footer nav a {
         font-size: .7rem;
