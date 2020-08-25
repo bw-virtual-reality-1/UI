@@ -108,13 +108,6 @@ nav a {
     margin: 3%;
     padding: 4% 0 4% 0;
 }
-h1 {
-    font-family: 'Russo One', sans-serif;
-    font-size: 2.4rem;
-    margin: 0 1%;
-    padding: 1%;
-    justify-content: center;
-}
 h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
 }
@@ -144,11 +137,11 @@ header, footer {
 }
 h1 {
     display: flex; 
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     font-size: 4rem;
-    /* background-color: rgba(192, 192, 192, 0.15); */
-
+    font-family: 'Russo One', sans-serif;
+    background: white;
 }
 body {
     background-image: url("/assets/background-img.jpeg");
@@ -265,3 +258,26 @@ body {
         width: 25%;
     }
 }
+
+/* FEATURES PAGE */
+.features {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.feat-list{
+    border: 1px solid black;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    background-color: #010b24d5;
+    color: silver;
+}
+/* .heading {
+    border: 1px solid black;
+    width: 90%;
+} */
