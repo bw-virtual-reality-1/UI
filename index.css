@@ -80,11 +80,11 @@ a {
     background: #CA2044;
     font-size: 1.3rem;
     padding: 2%;
-    border-radius: 50px;
     border: 3px solid darkslategray;
     box-shadow: 1px 1px darkslategray;
 }
 nav a {
+    border-radius: 50px;
     margin: 0;
     width: 20%;
     justify-content: center;
@@ -103,13 +103,14 @@ nav a {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 h1 {
     font-family: 'Russo One', sans-serif;
     font-size: 2.4rem;
     margin: 0 1%;
     padding: 1%;
+    justify-content: center;
 }
 h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
@@ -130,7 +131,7 @@ footer nav {
     padding: 1%;
 }
 footer nav a {
-    width: 15%;
+    width: 25%;
 }
 header, footer {
     opacity: 95%;
@@ -159,7 +160,7 @@ body {
     margin: 0 auto;
     padding: 1%;
     background-color: rgba(246, 244, 244, 0.438);
-    border-radius: 40px;
+    text-align: center;
 }
 .mainBody{
     padding: 0;
@@ -176,12 +177,12 @@ body {
     width: 100%;
     justify-content: center;
 }
-.gallery img {
+.gallery .images img, .gallery .images2 img {
     width: 20%;
     margin: 1%;
-    border: 5px solid rgba(0, 0, 0, 0.144);
-    opacity: 90%;
-    border-radius: 50px;
+    border: 1px solid silver;
+    opacity: 95%;
+    border-radius: 25px;
 }
 
 @media(max-width: 1050px){
@@ -190,10 +191,17 @@ body {
     }
 }
 @media(max-width:800px){
+    .logo {
+        width: 9%;
+    }
+    a {
+        font-size: .8rem;
+    }
     h1 {
         width: 100%;
         justify-content: center;
         margin: 0 auto;
+        font-size: 3rem;
     }
     .mainBody p {
         width: 80%;
@@ -201,13 +209,50 @@ body {
         border-radius: 0;
         font-size: 1.4rem;
     }
-    .images {
+    .gallery {
+        display: flex;
+        padding: 2%;
+    }
+    .images, .images2 {
+        display: flex;
         flex-direction: column;
-        height: 900px;
+    }
+    .gallery .images img, .gallery .images2 img {
+        width: 80%;
+        margin: 2% auto;
+    }
+}
+@media(max-width: 600px){
+    h1{
+        font-size: 2.4rem;
+    }
+    .mainBody p {
+        font-size: 1rem;
         width: 100%;
     }
-    .images img {
-        width: 35%;
-        height: 30vh;
+    .navBar {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav {
+        flex-direction: column;
+    }
+    header nav a {
+        width: 90%;
+        margin: 1% auto;
+    }
+    .logo {
+        display: none;
+    }
+    .register {
+        width: 100%;
+    }
+    .register a {
+        width: 40%; 
+        margin: 1% auto;
+    }
+    footer nav a {
+        font-size: .7rem;
+        width: 25%;
     }
 }
