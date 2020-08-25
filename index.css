@@ -94,7 +94,7 @@ video {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 html {
@@ -105,18 +105,23 @@ html {
 }
 
 a {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: #010b24;
   background-color: #ff4522;
+  padding: 1.5%;
   text-decoration: none;
+  font-weight: bold;
   align-self: center;
+  border-radius: 100px;
+  border: #ca2044;
 }
 nav {
   color: #010b24;
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
   padding: 2% 0;
-  font-family: "Roboto", monospace;
+  font-family: "Orbitron", sans-serif;
   text-decoration: none;
 }
 
@@ -161,14 +166,19 @@ nav {
   border: 2px solid #ca2044;
   background-color: #ff4522;
 }
-h1 {
+.logo {
+  padding: 4%;
+  text-decoration: none;
+}
+
+/* h1 {
   font-family: "Orbitron", sans-serif;
   font-size: 7rem;
   letter-spacing: 2px;
   padding: 20%;
   text-decoration: bold;
   display: inline;
-}
+} */
 
 h2 {
   color: #ca2044;
