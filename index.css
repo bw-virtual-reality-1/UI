@@ -141,8 +141,8 @@ header, footer {
 h1 {
     display: flex; 
     width: 30%;
-    background-color: rgba(47, 79, 79, 0.301);
     margin: 0 7%;
+    /* background-color: rgba(192, 192, 192, 0.15); */
 
 }
 body {
@@ -157,18 +157,24 @@ body {
     width: 30%;
     margin: 0 7%;
     padding: 1%;
-    background-color: rgba(47, 79, 79, 0.301);
+    background-color: rgba(246, 244, 244, 0.438);
+    border-radius: 40px;
+}
+.mainBody{
+    padding: 0;
+    background-color: rgba(4, 23, 80, 0.479);
 }
 
 .images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.383);
+    width: 100%;
 }
 .images img {
     width: 20%;
     margin: 1%;
-    border: 5px solid black;
+    border: 5px solid rgba(0, 0, 0, 0.144);
     opacity: 90%;
+    border-radius: 50px;
 }
