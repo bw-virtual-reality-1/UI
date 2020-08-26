@@ -101,7 +101,7 @@ html {
   font-size: 62.5%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Reality_check_ESA384313.jpg/1280px-Reality_check_ESA384313.jpg");
   background-repeat: repeat;
-  background-size: 125%;
+  background-size: 100%;
 }
 
 a {
@@ -171,6 +171,8 @@ nav {
   text-decoration: none;
   background-color: #ff4522;
   border-radius: 90px;
+  height: 220px;
+  width: 300px;
 }
 
 /* h1 {
