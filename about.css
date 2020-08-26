@@ -171,7 +171,8 @@ body {
 .images, .images2 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 .gallery .images img, .gallery .images2 img {
     width: 23%;
