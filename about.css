@@ -82,15 +82,9 @@ a {
     padding: 2%;
     border: 3px solid black;
     transition: .5s;
-}
-nav a {
     border-radius: 50px;
-    margin: 0;
-    width: 20%;
     justify-content: center;
-    margin: 1%;
-    background: #CA2044;
-    color: black;
+    width: 20%;
 }
 a:hover {
     color: white;
@@ -104,13 +98,9 @@ a:hover {
     flex-direction: column;
 }
 .register a {
-    width: 85%;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px;
-    border-radius: 10px;
-    margin: 3%;
     padding: 4% 0 4% 0;
+    width: 90%;
+    margin: 3%;
 }
 h2, h3, h4, h5, h6 {
     font-family: 'Orbitron', sans-serif;
@@ -128,10 +118,8 @@ nav {
 footer nav {
     width: 90%;
     margin: 0 auto;
+    justify-content: space-between
     padding: 1%;
-}
-footer nav a {
-    width: 20%;
 }
 header, footer {
     opacity: 95%;
