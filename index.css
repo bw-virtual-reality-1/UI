@@ -165,7 +165,7 @@ body {
 }
 .mainBody{
     padding: 0;
-    background-color: rgba(4, 23, 80, 0.479);
+    background-color: rgba(52, 13, 144, 0.486);
     min-height: 78vh;
 }
 
@@ -176,7 +176,6 @@ body {
 }
 .gallery .images img, .gallery .images2 img {
     width: 23%;
-    border: 1px solid silver;
     opacity: 95%;
     margin: 1% auto;
 }
@@ -189,9 +188,6 @@ ul {
     width: 95%;
     margin: 0 auto;
     justify-content: center;
-}
-.featMainBody {
-    background-color: rgba(52, 13, 144, 0.486);
 }
 .featuresh1{
     display: flex;
