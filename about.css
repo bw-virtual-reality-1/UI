@@ -229,22 +229,21 @@ ul {
     .mainBody p {
         width: 100%;
         border-radius: 0;
-        font-size: 1.4rem;
     }
     .gallery {
         display: flex;
         padding: 2%;
-        flex-direction: column;
     }
     .images, .images2 {
         display: flex;
-        /* flex-direction: column; */
-        width: 100%;
-        margin: 3% 0;
+        flex-direction: column;
+        width: 40%;
+        margin: 1% auto;
+        align-items: center;
     }
     .gallery .images img, .gallery .images2 img {
-        width: 23%;
-        margin: 2% auto;
+        width: 100%;
+        margin: 5% auto;
     }
     .features {
         display: flex;
@@ -265,7 +264,6 @@ ul {
         font-size: 3rem;
     }
     .mainBody p {
-        font-size: 1rem;
         width: 100%;
     }
     .navBar {
@@ -304,17 +302,6 @@ ul {
     }
     .gallery {
         flex-direction: row;
-    }
-    .images, .images2 {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        margin: 1% auto;
-        align-items: center;
-    }
-    .gallery .images img, .gallery .images2 img {
-        width: 100%;
-        margin: 5% auto;
     }
     footer .navBar nav {
         display: flex;
