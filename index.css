@@ -1,0 +1,249 @@
+/* CSS RESET
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&family=Russo+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  /* border: 1px solid grey; */
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Reality_check_ESA384313.jpg/1280px-Reality_check_ESA384313.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+a {
+  font-size: 1.7rem;
+  color: #010b24;
+  background-color: #ff4522;
+  padding: 1.5%;
+  text-decoration: none;
+  font-weight: bold;
+  align-self: center;
+  border-radius: 100px;
+  border: #ca2044;
+}
+nav {
+  color: #010b24;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2% 0;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.events:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.about:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.contact:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.supporters:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.future:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+
+.sizzle:hover {
+  color: #010b24;
+  border: 2px solid #ca2044;
+  background-color: #ff4522;
+}
+.logo {
+  padding: 4%;
+  text-decoration: none;
+  background-color: #ff4522;
+  border-radius: 90px;
+  height: 220px;
+  width: 300px;
+}
+
+/* h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 7rem;
+  letter-spacing: 2px;
+  padding: 20%;
+  text-decoration: bold;
+  display: inline;
+} */
+
+h2 {
+  color: #ca2044;
+  font-family: "Russo One", sans-serif;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  padding: 4%;
+  text-decoration: none;
+}
+
+p {
+  color: #ff4522;
+  background-color: #010b24;
+  font-family: "Roboto", monospace;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  width: 40%;
+  border: 10px solid #010b24;
+  padding: 3%;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+p2 {
+  color: #010b24;
+  background-color: #ff4522;
+  font-family: "Roboto", monospace;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+}
+.img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  html {
+    background-color: black;
+    background-repeat: repeat;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    background-color: black;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
