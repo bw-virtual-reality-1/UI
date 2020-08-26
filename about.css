@@ -179,11 +179,8 @@ body {
 }
 .gallery .images img, .gallery .images2 img {
     width: 23%;
-    opacity: 95%;
-    margin: 1% auto;
-}
-ul {
-    margin: 5% 1%;
+    margin: 1%; 
+    box-shadow: 8px 8px rgba(52, 13, 144, 0.25);
 }
 /* FEATURES PAGE */
 .features {
@@ -191,6 +188,9 @@ ul {
     width: 95%;
     margin: 0 auto;
     justify-content: space-between;
+}
+ul {
+    margin: 5% 1%;
 }
 .featuresh1{
     display: flex;
