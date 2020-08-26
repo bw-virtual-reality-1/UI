@@ -100,7 +100,6 @@ a:hover {
 .register {
     padding: 0;
     width: 15%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -137,8 +136,8 @@ footer nav a {
 header, footer {
     opacity: 95%;
     background: #010B24;
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
+    border-top: 10px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.5);
 }
 .abouth1 {
     display: flex;
