@@ -100,7 +100,7 @@ video {
 html {
   font-size: 62.5%;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Reality_check_ESA384313.jpg/1280px-Reality_check_ESA384313.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 125%;
 }
 
@@ -224,4 +224,24 @@ p2 {
 .img {
   width: 100px;
   margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  html {
+    background-color: black;
+    background-repeat: repeat;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    background-color: black;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
