@@ -166,7 +166,7 @@ body {
     font-weight: bold;
 }
 .mainBody{
-    padding: 0;
+    padding: 1%;
     background-color: rgba(52, 13, 144, 0.486);
     min-height: 78vh;
 }
