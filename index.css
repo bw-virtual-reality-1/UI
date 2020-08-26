@@ -144,8 +144,8 @@ header, footer {
     display: flex;
     font-size: 5rem;
     font-family: 'Russo One', sans-serif;
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
 }
 body {
     background-image: url("/assets/background-img.jpeg");
@@ -156,35 +156,29 @@ body {
 }
 .mainBody p {
     display: flex;
-    width: 50%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 2% auto;
     padding: 1%;
-    background-color: rgba(246, 244, 244, 0.438);
-    text-align: center;
+    color: silver;
+    background-color: #010b24d5;
+    font-weight: bold;
 }
 .mainBody{
     padding: 0;
     background-color: rgba(4, 23, 80, 0.479);
+    min-height: 78vh;
 }
-.featMainBody {
-    background-color: rgba(52, 13, 144, 0.486);
-}
-.images {
+
+.images, .images2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-}
-.images2 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
 }
 .gallery .images img, .gallery .images2 img {
     width: 20%;
-    margin: 1%;
     border: 1px solid silver;
     opacity: 95%;
-    border-radius: 25px;
+    margin: 1% auto;
 }
 ul {
     margin: 5% 1%;
@@ -195,6 +189,9 @@ ul {
     width: 95%;
     margin: 0 auto;
     justify-content: center;
+}
+.featMainBody {
+    background-color: rgba(52, 13, 144, 0.486);
 }
 .featuresh1{
     display: flex;
@@ -212,7 +209,7 @@ ul {
     font-weight: bolder;
     font-size: 1.4rem;
     background-color: #010b24d5;
-    color: silver;
+    color: #FFFAFA;
     padding: 0 1% 0 1%;
 }
 @media(max-width: 1050px){
@@ -234,21 +231,23 @@ ul {
         font-size: 3rem;
     }
     .mainBody p {
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
         border-radius: 0;
         font-size: 1.4rem;
     }
     .gallery {
         display: flex;
         padding: 2%;
+        flex-direction: column;
     }
     .images, .images2 {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+        width: 100%;
+        margin: 3% 0;
     }
     .gallery .images img, .gallery .images2 img {
-        width: 80%;
+        width: 23%;
         margin: 2% auto;
     }
     .features {
@@ -306,5 +305,19 @@ ul {
     }
     .feat-list{
         font-size: .8rem;
+    }
+    .gallery {
+        flex-direction: row;
+    }
+    .images, .images2 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 1% auto;
+        align-items: center;
+    }
+    .gallery .images img, .gallery .images2 img {
+        width: 100%;
+        margin: 5% auto;
     }
 }
