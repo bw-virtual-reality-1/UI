@@ -80,8 +80,8 @@ a {
     background: #CA2044;
     font-size: 1.3rem;
     padding: 2%;
-    border: 3px solid darkslategray;
-    box-shadow: 1px 1px darkslategray;
+    border: 3px solid black;
+    transition: .5s;
 }
 nav a {
     border-radius: 50px;
@@ -94,7 +94,7 @@ nav a {
 }
 a:hover {
     color: white;
-    transition: 1s;
+    transition: .5s;
     border: 3px solid rgb(255, 255, 255);
 }
 .register {
@@ -145,6 +145,7 @@ header, footer {
     font-family: 'Russo One', sans-serif;
     width: 100%;
     justify-content: center;
+    padding: 2% 0 2% 0;
 }
 body {
     background-image: url("/assets/background-img.jpeg");
@@ -195,6 +196,7 @@ ul {
     font-family: 'Russo One', sans-serif;
     width: 86%;
     margin: 0 auto;
+    padding: 2% 0 2% 0;
 }
 .feat-list{
     border: 1px solid black;
