@@ -241,6 +241,10 @@ p2 {
   margin-left: 550px;
 }
 
+.social {
+  align-self: auto;
+  justify-content: center;
+}
 .fa-twitter {
   background: #55acee;
   color: white;
