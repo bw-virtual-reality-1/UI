@@ -113,7 +113,7 @@ a {
   font-weight: bold;
   align-self: center;
   border-radius: 100px;
-  border: #ca2044;
+  border: 2px solid #9b233d;
 }
 nav {
   color: #010b24;
@@ -175,9 +175,10 @@ nav {
   padding: 4%;
   text-decoration: none;
   background-color: #ff4522;
-  border-radius: 90px;
+  border-radius: 70px;
   height: 220px;
   width: 300px;
+  margin-left: 100px;
 }
 
 /* h1 {
@@ -213,6 +214,7 @@ p {
   margin-right: auto;
   width: 40%;
   border-radius: 20%;
+  line-height: 120%;
 }
 
 p2 {
@@ -233,7 +235,21 @@ p2 {
   width: 100px;
   margin: 0 auto;
 }
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  margin-left: 550px;
+}
 
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
 @media (max-width: 800px) {
   html {
     background-color: black;
