@@ -118,7 +118,7 @@ nav {
 footer nav {
     width: 90%;
     margin: 0 auto;
-    justify-content: space-between
+    justify-content: space-between;
     padding: 1%;
 }
 header, footer {
@@ -136,6 +136,7 @@ header, footer {
     padding: 2% 0 2% 0;
     color: #010b24d5;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px silver;
 }
 body {
     background-image: url("/assets/background-img.jpeg");
@@ -189,6 +190,7 @@ ul {
     padding: 2% 0 2% 0;
     color: #010b24d5;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px silver;
 }
 .feat-list{
     border: 1px solid black;
@@ -283,13 +285,10 @@ ul {
         margin: 1% auto;
         padding: 2%;
     }
-    nav a {
+    a {
         width: 60%;
         border-radius: 10px;
-    }
-    footer nav a {
-        font-size: .7rem;
-        width: 25%;
+        font-size: 1.3rem;
     }
     .feat-list{
         font-size: .8rem;
@@ -302,7 +301,7 @@ ul {
         flex-direction: column;
     }
     footer nav a {
-        width: 50%;
+        width: 90%;
         margin: 2% auto;
     }
     .gallery {
