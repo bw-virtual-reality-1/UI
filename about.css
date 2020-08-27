@@ -136,6 +136,7 @@ header, footer {
     padding: 2% 0 2% 0;
     color: #010b24d5;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px silver;
 }
 body {
     background-image: url("/assets/background-img.jpeg");
@@ -189,6 +190,7 @@ ul {
     padding: 2% 0 2% 0;
     color: #010b24d5;
     text-decoration: underline;
+    text-shadow: 1px 1px 1px silver;
 }
 .feat-list{
     border: 1px solid black;
